@@ -18,8 +18,9 @@ if use_sample:
     st.write("Sample Text:")
     st.write(contents)
     sentence = contents
+else:
+    sentence = st.text_area('Please paste your article :', height=30)
     
-sentence = st.text_area('Please paste your article :', height=30)
 question = st.text_input("Questions from this article?")
 button = st.button("Get me Answers")
 
