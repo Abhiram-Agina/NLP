@@ -10,17 +10,18 @@ def load_qa_model():
 
 qa = load_qa_model()
 st.title("Ask Questions about your Text")
-sentence = st.text_area('Please paste your article :', height=30)
-question = st.text_input("Questions from this article?")
-button = st.button("Get me Answers")
-
-with open('Sample.txt') as f:
-    contents = f.read()
 
 use_sample = st.sidebar.checkbox("Use sample", value=False)
 if use_sample:
+    with open('Sample.txt') as f:
+        contents = f.read()
+    st.write("Sample Text:")
     st.write(contents)
     sentence = contents
+    
+sentence = st.text_area('Please paste your article :', height=30)
+question = st.text_input("Questions from this article?")
+button = st.button("Get me Answers")
 
 with st.spinner("Discovering Answers.."):
     if button and sentence:
