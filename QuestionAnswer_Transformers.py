@@ -14,9 +14,12 @@ sentence = st.text_area('Please paste your article :', height=30)
 question = st.text_input("Questions from this article?")
 button = st.button("Get me Answers")
 
+with open('Sample.txt') as f:
+    contents = f.read()
+
 do_sample = st.sidebar.checkbox("Do sample", value=False)
 if do_sample:
-    sentence = pd.read_txt("Sample.txt")
+    sentence = contents
 
 with st.spinner("Discovering Answers.."):
     if button and sentence:
