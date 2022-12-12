@@ -15,7 +15,7 @@ use_sample = st.sidebar.checkbox("Use sample", value=False)
 if use_sample:
     with open('Sample.txt') as f:
         contents = f.read()
-    st.write("Sample Text:")
+    st.write("*Sample Text:*")
     st.write(contents)
     sentence = contents
 else:
