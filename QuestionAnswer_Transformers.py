@@ -17,8 +17,9 @@ button = st.button("Get me Answers")
 with open('Sample.txt') as f:
     contents = f.read()
 
-do_sample = st.sidebar.checkbox("Do sample", value=False)
-if do_sample:
+use_sample = st.sidebar.checkbox("Use sample", value=False)
+if use_sample:
+    st.text = contents
     sentence = contents
 
 with st.spinner("Discovering Answers.."):
