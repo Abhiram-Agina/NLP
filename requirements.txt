@@ -1,5 +1,7 @@
 streamlit
 transformers
+torch
+tensorflow
 matplotlib
 numpy
 pandas
