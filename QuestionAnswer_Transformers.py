@@ -19,7 +19,7 @@ with open('Sample.txt') as f:
 
 use_sample = st.sidebar.checkbox("Use sample", value=False)
 if use_sample:
-    st.text = contents
+    st.write(contents)
     sentence = contents
 
 with st.spinner("Discovering Answers.."):
