@@ -10,7 +10,6 @@ st.title("Homepage: **Natural Language Processing**")
 #list metrics, along with importance & limitations
 #predict/analyze game outcome per Team metrics
 
-st.sidebar.image(abhiramPic, width = 150)
 st.sidebar.markdown(
 """
 About Me:
