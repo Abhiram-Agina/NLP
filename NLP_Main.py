@@ -19,7 +19,7 @@ About Me:
 """
 )
 
-nav = st.sidebar.radio("Navigation",["Summary", "Spell Checker", "Sentiment Analyzer", "Context Questions"])
+nav = st.sidebar.radio("Navigation",["Summary", "Spell Checker", "Sentiment Analyzer", "Context Questions", "Text Summarization", "Chat Bot", "Spam Detector"])
 
 
 if nav == "Home":
