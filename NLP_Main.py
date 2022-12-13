@@ -13,7 +13,7 @@ st.title("Homepage: **Natural Language Processing**")
 st.sidebar.markdown(
 """
 About Me:
-* I am a Junior at Oak Park High School in Oak Park, CA. I absolutely love Basketball & the NBA. I developed this app as a tool and portfolio of my early work in Basketball Analytics.
+* I am a Junior at Oak Park High School in Oak Park, CA. I absolutely love Computer Science. I developed this app as a tool and portfolio of my early work in Artificial Intelligence & Linguistics.
 * [**My Github**](https://github.com/Abhiram-Agina)
 * [**My LinkedIn**](https://www.linkedin.com/in/abhiram-agina/)
 """
@@ -25,13 +25,13 @@ nav = st.sidebar.radio("Navigation",["Summary", "Spell Checker", "Sentiment Anal
 if nav == "Summary":
     st.markdown(
     """
-    ***Data Science + Sports? ***
-    * **Our world is changing, and sports are no exception.** 
-    * Data Science and Analytics can now be implemented into every facet of a game from **Team** and **Player** Analysis all the way to aspects such as **Ticketing** and **Marketing**.
-    * More Info: [How Data Analysis In Sports Is Changing The Game](https://www.forbes.com/sites/forbestechcouncil/2019/01/31/how-data-analysis-in-sports-is-changing-the-game/?sh=3c2f0b883f7b)\n
+    ***Natural Language Processing?***
+    * **There is a new player** 
+    * Natural Language Processing (NLP) is a field of study that focuses on how computers can understand and generate human language. It involves developing algorithms and models that enable computers to process and analyze natural language data, such as speech and text. NLP has many applications, including language translation, text summarization, and sentiment analysis.
+    * - As explained by ChatGPT
     
     ***My Goal***
-    * This website aims to chart and display my growth into the World of Data Analytics. I begin with my favorite sport, a game I continue to love playing, watching, and learning about. 
+    * This website aims to chart and display my growth into the World of Artificial Intelligence & NLP.  
     * ***Please Explore and Enjoy :)***\n
     """
     )
