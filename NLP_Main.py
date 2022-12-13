@@ -4,7 +4,7 @@ import streamlit as st
 import pandas as pd
 from PIL import Image
 
-st.title("Homepage: **Natural Language Processing**")
+st.title("**Natural Language Processing**")
 
 #make an index of services offered
 #list metrics, along with importance & limitations
@@ -26,10 +26,9 @@ if nav == "Home":
     st.markdown(
     """
     ***Natural Language Processing?***
-    * **There is a new player** 
-    * "Natural Language Processing (NLP) is a field of study that focuses on how computers can understand and generate human language. It involves developing algorithms and models that enable computers to process and analyze natural language data, such as speech and text. NLP has many applications, including language translation, text summarization, and sentiment analysis."
-    * As states by ChatGPT OpenAI
-    
+    "Natural Language Processing (NLP) is a field of study that focuses on how computers can understand and generate human language. It involves developing algorithms and models that enable computers to process and analyze natural language data, such as speech and text. NLP has many applications, including language translation, text summarization, and sentiment analysis."
+    - as defined by OpenAI ChatGPT.
+   
     ***My Goal***
     * This website aims to chart and display my growth into the World of Artificial Intelligence & NLP.  
     * ***Please Explore and Enjoy :)***\n
