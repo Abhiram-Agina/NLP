@@ -49,7 +49,7 @@ if nav == "Sentiment Analyzer":
     st.header("*Sentiment Analyzer*")
     st.markdown(
     '''
-    * [Spell Check](https://share.streamlit.io/abhiram-agina/basketball_analytics_main/main/Four_Factor_Analysis.py)
+    * [Spell Check](https://abhiram-agina-nlp-simplesentiment-ehagi9.streamlit.app/)
     '''
     )
     
@@ -57,7 +57,7 @@ if nav == "Context Questions":
     st.header("*Context Questions*")
     st.markdown(
     '''
-    * [Spell Check](https://share.streamlit.io/abhiram-agina/basketball_analytics_main/main/Four_Factor_Analysis.py)
+    * [Spell Check](https://abhiram-agina-nlp-questionanswer-transformers-45gs5y.streamlit.app/)
     '''
     )
     
