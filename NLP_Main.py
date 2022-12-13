@@ -41,7 +41,7 @@ if nav == "Spell Checker":
     st.header("*Spell Check*")
     st.markdown(
     '''
-    * [Spell Check](https://share.streamlit.io/abhiram-agina/basketball_analytics_main/main/Four_Factor_Analysis.py)
+    * [Spell Check](https://abhiram-agina-nlp-spellcheck-nt232o.streamlit.app/)
     '''
     )
     
