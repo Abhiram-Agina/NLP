@@ -22,7 +22,7 @@ About Me:
 nav = st.sidebar.radio("Navigation",["Summary", "Spell Checker", "Sentiment Analyzer", "Context Questions"])
 
 
-if nav == "Summary":
+if nav == "Home":
     st.markdown(
     """
     ***Natural Language Processing?***
