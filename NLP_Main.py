@@ -19,13 +19,12 @@ About Me:
 """
 )
 
-nav = st.sidebar.radio("Navigation",["Summary", "Spell Checker", "Sentiment Analyzer", "Context Questions", "Text Summarization", "Chat Bot", "Spam Detector"])
+nav = st.sidebar.radio("Navigation",["Home", "Spell Checker", "Sentiment Analyzer", "Context Questions", "Text Summarization", "Chat Bot", "Spam Detector"])
 
 
 if nav == "Home":
     st.markdown(
     """
-    ***Natural Language Processing?***
     "Natural Language Processing (NLP) is a field of study that focuses on how computers can understand and generate human language. It involves developing algorithms and models that enable computers to process and analyze natural language data, such as speech and text. NLP has many applications, including language translation, text summarization, and sentiment analysis."
     - as defined by OpenAI ChatGPT.
    
