@@ -5,6 +5,5 @@ tensorflow
 matplotlib
 numpy
 pandas
-seaborn
 textblob
 tableqa
