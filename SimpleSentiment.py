@@ -6,5 +6,9 @@ from transformers import pipeline
 
 senti_pipeline = pipeline("sentiment-analysis")
 
-question = st.text_input("Enter a statement, and the AI will guess its sentiment:")
+statement = st.text_input("Enter a statement, and the AI will guess its sentiment:")
 button = st.button("Evaluate Sentiment")
+
+with st.spinner("Discovering Answers.."):
+    if button and statement:
+      st.write(senti_pipeline(statement))
