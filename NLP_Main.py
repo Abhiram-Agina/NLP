@@ -13,7 +13,7 @@ st.title("Homepage: **Natural Language Processing**")
 st.sidebar.markdown(
 """
 About Me:
-* I am a Junior at Oak Park High School in Oak Park, CA. I absolutely love Computer Science. I developed this app as a tool and portfolio of my early work in Artificial Intelligence & Linguistics.
+* I am a Senior at Oak Park High School in Oak Park, CA. I absolutely love Computer Science. I developed this app as a tool and portfolio of my early work in Artificial Intelligence & Linguistics.
 * [**My Github**](https://github.com/Abhiram-Agina)
 * [**My LinkedIn**](https://www.linkedin.com/in/abhiram-agina/)
 """
