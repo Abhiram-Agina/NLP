@@ -10,3 +10,5 @@ tableqa
 scipy
 networkx
 nltk
+pip
+setuptools
