@@ -1,8 +1,12 @@
 # 0. import libraries
 import streamlit as st
 import nltk
+
 #from nltk.corpus import stopwords
+nltk.download(stopwords)
 #from nltk.cluster.util import cosine_distance
+nltk.download(cosine_distance)
+
 import numpy as np
 import networkx as nx
 
