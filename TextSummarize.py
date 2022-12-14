@@ -1,14 +1,13 @@
 # 0. import libraries
+import streamlit as st
 from nltk.corpus import stopwords
 from nltk.cluster.util import cosine_distance
 import numpy as np
 import networkx as nx
 
 # 1. Generate clean sentences
-def read_article(file_name):
-    file = open(file_name, "r")
-    filedata = file.readlines()
-    article = filedata[0].split(". ")
+def read_article(text):
+    article = text.split(". ")
     sentences = []
 
     for sentence in article:
@@ -88,4 +87,5 @@ def generate_summary(file_name, top_n=5):
     print("Summarize Text: \n", ". ".join(summarize_text))
     
 # let's begin
+text = st.text_area('Please paste your article :', height=30)
 generate_summary( "News.txt", 2)
