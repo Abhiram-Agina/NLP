@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
+import tableqa
 
 df = pd.read_csv("Cancer Death - Data.csv")
 
