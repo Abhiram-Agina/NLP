@@ -1,7 +1,7 @@
 # 0. import libraries
 import streamlit as st
-from nltk.corpus import stopwords
-from nltk.cluster.util import cosine_distance
+#from nltk.corpus import stopwords
+#from nltk.cluster.util import cosine_distance
 import numpy as np
 import networkx as nx
 
