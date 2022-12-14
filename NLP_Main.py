@@ -61,3 +61,10 @@ if nav == "Context Questions":
     '''
     )
     
+ if nav == "Text Summarization":
+    st.header("*Text Summarization*")
+    st.markdown(
+    '''
+    * [Text Summarization](https://abhiram-agina-nlp-textsummarize-yox3lu.streamlit.app/)
+    '''
+    )
