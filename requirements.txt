@@ -9,3 +9,4 @@ textblob
 tableqa
 scipy
 networkx
+nltk
