@@ -7,3 +7,5 @@ numpy
 pandas
 textblob
 tableqa
+scipy
+networkx
