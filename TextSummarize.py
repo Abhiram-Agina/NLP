@@ -6,8 +6,8 @@ import numpy as np
 import networkx as nx
 
 # 1. Generate clean sentences
-def read_article(text):
-    article = text.split(". ")
+def read_article(textInput):
+    article = textInput.split(". ")
     sentences = []
 
     for sentence in article:
@@ -62,12 +62,12 @@ def build_similarity_matrix(sentences, stop_words):
     return similarity_matrix
     
 # Generate Summary
-def generate_summary(file_name, top_n=5):
+def generate_summary(textInput, top_n=5):
     stop_words = stopwords.words('english')
     summarize_text = []
 
     # Step 1 - Read text anc split it
-    sentences =  read_article(file_name)
+    sentences =  read_article(textInput)
 
     # Step 2 - Generate Similary Martix across sentences
     sentence_similarity_martix = build_similarity_matrix(sentences, stop_words)
@@ -87,5 +87,12 @@ def generate_summary(file_name, top_n=5):
     print("Summarize Text: \n", ". ".join(summarize_text))
     
 # let's begin
-text = st.text_area('Please paste your article :', height=30)
+textInput = st.text_area('Please paste your article :', height=30)
+button = st.button("Summarize")
+
+with st.spinner("Summarizing the text.."):
+    if button and textInput:
+        answers = qa(question=question, context=sentence)
+        st.write(answers['answer'])
+
 generate_summary( "News.txt", 2)
