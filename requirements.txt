@@ -10,3 +10,5 @@ tableqa
 scipy
 networkx
 nltk
+nltk.corpus.stopwords
+nltk.cluster.util.cosine_distance
