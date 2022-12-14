@@ -19,7 +19,7 @@ About Me:
 """
 )
 
-nav = st.sidebar.radio("Navigation",["Home", "Spell Checker", "Sentiment Analyzer", "Context Questions", "Text Summarization", "Chat Bot", "Spam Detector"])
+nav = st.sidebar.radio("Navigation",["Home", "Spell Checker", "Sentiment Analyzer", "Context Questions", "Text Summarization", "Query a Table", "Chat Bot", "Spam Detector"])
 
 
 if nav == "Home":
@@ -68,3 +68,12 @@ if nav == "Context Questions":
     * [Text Summarization](https://abhiram-agina-nlp-textsummarize-yox3lu.streamlit.app/)
     '''
     )
+    
+    
+  if nav == "Query a Table":
+    st.header("*Query a Table*")
+    st.markdown(
+    '''
+    * [Query a Table](https://abhiram-agina-nlp-tablequeries-a8ucis.streamlit.app/)
+    '''
+    )   
